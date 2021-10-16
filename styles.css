@@ -9,26 +9,44 @@ body{
 .container{
     width: 500px;
     background-color: black;
-
+    float: left;
     /* display: block; */
     display: inline;
     margin: 0 auto;
     border-radius: 10px;
     padding-bottom : 50px;
 }
+.date{
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.time{
+  font-size: 1.6em;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px ;
+  margin-right: 40px;
+  margin-top: 10px;
+
+
+}
 
 .app-title{
     width: 400px;
     height: 50px;
-    border-radius: 10px 10px 0 0;
-}
-
-.app-title p{
-    text-align: CENTER;
-    padding: 15px;
+    text-align: center;
+    padding: 10px;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: white;
+    float: center;
+}
+.app-title p{
+
 }
 
 .notification{
@@ -111,4 +129,13 @@ body{
     color: #293251;
     text-align: center;
     font-size: 1em;
+}
+
+#dateDisplay{
+  font-size: 2em;
+  color: white;
+}
+#timeDisplay{
+  font-size: 1em;
+  color: white;
 }

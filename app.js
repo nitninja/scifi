@@ -28,7 +28,7 @@ weather.temperature = {
 //
 // }
 
-  getWeather(latitu, longi);
+//   getWeather(latitu, longi);
 //ERROR
 function showError(error){
     notificationElement.style.display = "block";
